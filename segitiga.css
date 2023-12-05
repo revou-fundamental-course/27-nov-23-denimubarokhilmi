@@ -1,0 +1,205 @@
+
+body {
+  width: 550px;
+  margin: 0 auto; 
+  justify-content: center;
+  align-items: center;
+ height:auto;
+
+}
+.container2 {
+  background-image: url(leaves.png);
+  border: 3px solid rgb(150, 157, 21);
+  border-radius: 5px;
+}
+
+.container {
+   text-align: center;
+    justify-content: center;
+    align-items: center; 
+}
+.navbar {
+  display: block;
+  align-items: center;
+  flex-direction:row ;
+}
+  #hitungSegitiga {
+    font-size: 20px;
+    width: auto;
+    height: 50px;
+  display : flexbox;
+    color: black;
+    text-align: center;
+    text-transform: capitalize;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid white;
+    border-radius: 5px;
+  margin: 10px;
+  }
+  
+ a{
+  text-decoration: none;
+ }
+
+#hitungKeliling{
+  font-size: 20px;
+  width:auto;
+  height: 50px;
+  
+  color: black;
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+  text-transform: capitalize;
+  border-radius: 5px;
+margin: 10px;
+}
+
+#luasSegi {
+  width: auto;
+  height: 80px;
+  background-color: lightblue;
+  padding-top: 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column; /* Set flex-direction to column */
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin: 10px;
+  color: black;
+  text-transform: capitalize;
+  font-weight: 900;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+/* #luasSegi {
+  color: white;
+  width: auto;
+  height: 80px;
+  background-color: lightblue;
+  padding-top: 0;
+  text-align:center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 10px;
+  margin: 10px;
+  color: black;
+text-transform: capitalize;
+font-weight:900;
+border: 2px solid black;
+border-radius: 5px;
+
+} */
+.gambar{
+  justify-content: center;
+  display: flex;
+  align-content: center;
+  padding-top: 6%;
+}
+  .segi {
+    width: 0;
+    height: 0;
+    border-left: 70px double transparent;
+    border-right: 70px double transparent;
+    border-top: 50px solid transparent;
+    border-bottom: 120px outset white;
+    margin: 50px;
+  
+  
+
+  } 
+
+  .text {
+    margin: 10px;
+  }
+.rumus1 {
+ text-align: center;
+ 
+}
+.hitung {
+ text-align: center;
+}
+.submit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#tombol{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: red;
+}
+
+.tombol1 {
+  display: flex;
+  justify-content: center;
+ 
+}
+ .reset {
+ 
+  display: flex;
+  justify-content: end;
+  margin: 10px;
+
+}
+.tombol1 .hitung1 {
+width: 100px;
+height: 40px;
+background-color: lightblue;
+color: black;
+border-radius: 5px;
+text-transform: capitalize;
+font-weight:900;
+}
+.reset .reset1 {
+  width: 100px;
+height: 40px;
+background-color: yellow;
+color: black;
+border-radius: 5px;
+text-transform: capitalize;
+font-weight:900;
+}
+
+
+#alas {
+  width: 480px;
+  height: 20px;
+}
+#tinggi {
+  width: 480px;
+  height: 20px;
+}
+#luas {
+  width: 480px;
+  height: 20px;
+}
+.hai p {
+  text-transform: capitalize;
+  font-size: 20px;
+  font-family: Arial;
+}
+#s1{
+  width: 470px;
+  height: 20px;
+}
+#s2{
+  width: 470px;
+  height: 20px;
+}
+#s3{
+  width: 470px;
+  height: 20px;
+}
+#keliling{
+  width: 470px;
+  height: 20px;
+}
+
+
+

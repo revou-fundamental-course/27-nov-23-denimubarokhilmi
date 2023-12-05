@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="segitiga.css">
+  <title>keliling</title>
+</head>
+<body>
+    <div class="container2">
+
+        <div class="container">
+            <div class="judul">
+                <h2 size="20">WELCOME TO KATIK
+                </h2>
+  <div class="hai">
+      
+      <p>hai sobat, selamat datang di katik </p>
+      <p>sebuah web apps sederhana berfungsi untuk menghitung luas dan keliling bangun datar</p>
+    </div>
+    <br>
+    <div id="hitungSegitiga">
+        <p><a href="segitiga..html">Segitiga</a></p>
+      <div style="background-color: rgb(177, 175, 27)" id="hitungKeliling">
+        <p >keliling</p>
+    </div>
+    <div id="luasSegi">
+        <h2> Keliling Segitiga</h2>
+    </div>
+</div>
+</div>
+</div>
+<div class="gambar">
+    
+    <div class="segi">
+        
+    </div>
+</div>
+<div class="text">
+    
+    <p>Rumus Keliling segitiga yaitu :
+        <div class="rumus1">
+            <p> K = S1 + S2 + S3</p>
+        </div>
+        <p> Dimana :</p>
+        <p>K = keliling</p>
+        <p>S1 = sisi A</p>
+        <p> S2 = sisi B</p>
+        <p>S3 = sisi C</p>
+    </p>
+</div>
+<hr>
+<h2 class="hitung">Hitung Keliling segitiga</h2>
+<br>
+
+<form id="resetdata">
+    <table>
+        <tr>
+      <td>S1</td>
+      <td>:</td>
+      <td><input type="number" name="S1" placeholder="Sisi A" id="s1"></td>
+    </tr>
+    <tr>
+        <td>S2</td>
+        <td>:</td>
+        <td><input type="number" name="S2" placeholder="Sisi B" id="s2"></td>
+    </tr>
+    <tr>
+        <td>S2</td>
+        <td>:</td>
+        <td> <input type="number" name="S3" id="s3" placeholder="Sisi C"></td>
+    </tr>
+    <tr>
+        <td>Keliling</td>
+        <td>:</td>
+        <td><input type="number" name="keliling" id="keliling"   disabled="true" ></td>
+    </tr>
+    <tr >
+        
+    </tr>
+</table>
+</form>
+
+<div class="tombol1">
+    
+    <button type="submit" value="hitung" class="hitung1" onclick="hitungK()">Hitung</button>
+    
+</div>
+<div class="reset">
+    
+    <button type="reset" class="reset1" value="hitung" onclick="resetdata()"> reset</button>
+</div>
+</div>
+<script src="segitiga.js"></script>
+
+</body>
+</html>

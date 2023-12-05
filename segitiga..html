@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="segitiga.css">
+  <title>Segitiga+</title>
+</head>
+<body>
+  <div class="container2">
+        
+    <div class="container">
+      <div class="judul">
+        <h2 size="20">WELCOME TO KATIK</h2>
+        <div class="hai">
+          
+          <p>hai sobat, selamat datang di katik </p>
+    <p >sebuah web apps sederhana berfungsi untuk menghitung luas dan keliling bangun datar</p>
+  </div>
+  <br>
+  <div class="navbar">
+
+    <div style="background-color:rgb(177, 175, 27)" id="hitungSegitiga">
+      <p>Segitiga</p>
+      <div id="hitungKeliling">
+        <p><a  href="keliling.html">keliling</a></p>
+      </div>
+      <div id="luasSegi">
+        <h2> Luas Segitiga</h2>
+      </div>
+    </div>
+    
+  </div>
+</div>
+</div>
+<div class="gambar">
+  
+  <div class="segi">
+    
+  </div>
+</div>
+<div class="text">
+  
+  <p>Rumus luas segitiga yaitu :
+    <div class="rumus1">
+      <p> L = 1/2 x a x t</p>
+    </div>
+    <p> Dimana :</p>
+    <p>L = luas</p>
+    <p>T = tinggi</p>
+    <p> A = alas</p>
+</p>
+</div>
+<hr>
+<h2 class="hitung">Hitung luas segitiga</h2>
+<br>
+
+<form id="resetdata">
+  <table>
+    <tr>
+      <td>Alas</td>
+      <td>:</td>
+      <td><input type="number" name="alas" placeholder="Nilai alas" id="alas"></td>
+    </tr>
+    <tr>
+      <td>Tinggi</td>
+      <td>:</td>
+    <td><input type="number" name="tinggi" placeholder="Nilai tinggi" id="tinggi"></td>
+  </tr>
+<tr>
+  <td>Luas</td>
+  <td>:</td>
+  <td><input type="number" name="luas" id="luas"   disabled="true" ></td>
+</tr>
+<tr >
+  
+</tr>
+</table>
+</form>
+
+<div class="tombol1">
+  
+  <button type="submit" value="hitung" class="hitung1" onclick="hitungL()">Hitung</button>
+  
+</div>
+<div class="reset">
+  
+  <button type="reset" class="reset1" value="hitung" onclick="resetdata()"> reset</button>
+</div>
+</div>
+<script src="segitiga.js"></script>
+
+</body>
+</html>
